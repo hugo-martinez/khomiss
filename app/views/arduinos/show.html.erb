@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>TimeStamp</strong>
+  <%= @arduino.created_at %>
+</p>
+
+<p>
+  <strong>B1:</strong>
+  <%= @arduino.b1 %>
+</p>
+
+<p>
+  <strong>B2:</strong>
+  <%= @arduino.b2 %>
+</p>
+
+<p>
+  <strong>B3:</strong>
+  <%= @arduino.b3 %>
+</p>
+
+<%= link_to 'Edit', edit_arduino_path(@arduino) %> |
+<%= link_to 'Back', arduinos_path %>
